@@ -1,0 +1,80 @@
+/* util */
+.anton-font {
+  font-family: "Anton", sans-serif;
+}
+
+.border {
+  border-top: .8px solid #666 !important;
+  border-bottom: .8px solid #666 !important;
+  border-right: none !important;
+  border-left: none !important;
+  padding: 1.3rem 0 1rem 0;
+}
+
+.pr {
+  position: relative;
+}
+
+
+/* SECTION 1 */
+#hero {
+  background: linear-gradient(#0000006c, #00000069), url("../img/about us/instrument1.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 5rem;
+}
+
+#hero h1 {
+  color: var(--clr-white);
+}
+
+
+/* SECTION 2 */
+#whyWeCreateThis {
+  background-color: var(--clr-gray);
+  color: var(--clr-white);
+  padding: 5rem 0;
+}
+
+#whyWeCreateThis * {
+  /* border: 1px solid red; */
+}
+
+#logo-description-container {
+  font-size: 1.2rem;
+  /* padding: 1rem; */
+  text-align: justify;
+}
+
+#logo-square-container {
+  height: 350px;
+}
+
+#logo-square-container img {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+/* SECTION 3 */
+#membersSection {
+  padding: 5rem 0;
+}
+
+.member-bg {
+  height: 250px;
+}
+
+.member {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  top: -10px;
+
+  /* Move element halfway down */
+  left: 50%;
+  /* Move element halfway across */
+  transform: translate(-50%, -50%);
+}

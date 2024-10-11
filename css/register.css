@@ -1,0 +1,18 @@
+#bg-giver {
+  background-image: url("../img/login & register/register-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-top: 5rem;
+}
+
+#ui {
+  background-color: #3e3731;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+#ui label,
+#ui h1 {
+  color: #f2eeea;
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+@import url("https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+:root {
+  --clr-light: #fff;
+  --clr-white: #f2eeea;
+  --clr-gray: #a29489;
+  --clr-dark: #3e3731;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--clr-white);
+  min-height: 100vh;
+  width: 100%;
+}
+
+.white-bg {
+  background-color: var(--clr-white) !important;
+  border: none;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.section-header {
+  font-family: "Anton", sans-serif;
+  font-weight: 300;
+}
+
+.brown-button {
+  background-color: var(--clr-dark) !important;
+  color: var(--clr-white);
+  transition: all 0.3s;
+}
+
+.brown-button:hover,
+.brown-button:focus {
+  background-color: var(--clr-gray) !important;
+  color: var(--clr-dark);
+}
+
+.brown-button:focus,.brown-button:active:focus,.brown-button.active:focus,
+.brown-button.focus,.brown-button:active.focus,.brown-button.active.focus {
+  outline: none;
+}
