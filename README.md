@@ -1,5 +1,5 @@
 # Dev Logs
-October 12, 2024
+<code>October 12, 2024</code>
 - Submitted the Index, Registration & Login Form, and About us.
   <details>
     <summary>Issues Fixed:</summary>
