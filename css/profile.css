@@ -1,0 +1,96 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.myfont {
+  font-family: 'Nunito', sans-serif;
+}
+
+/* notif point */
+.notif-point {
+  width: 100;
+}
+
+/* card */
+.card-profile {
+  width: 500px;
+  margin-top: 75px;
+  background: linear-gradient(to right, #beaa9a, #bbb7b4);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-color: #121111;
+}
+
+/* Body styling */
+body a:hover {
+  text-decoration: none;
+}
+
+/* hr */
+.profile-hr {
+  height: 2px;
+  border-radius: 5px;
+  background-color: #121111;
+  border: none;
+}
+
+/* profile-modal */
+.profile-modal {
+  background: linear-gradient(to left, #97897d, #bbb7b4);
+}
+
+/* profile pic */
+:root {
+  --circleSize: 135px;
+  --radius: 50%;
+  /* Perfect circle */
+  --shadow: 0 0 10px 0 rgba(255, 255, 255, 0.35);
+  --fontColor: rgb(250, 250, 250);
+}
+
+.profile-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.profile-pic input {
+  display: none;
+  /* Hide the file input */
+}
+
+.profile-pic img {
+  object-fit: cover;
+  width: var(--circleSize);
+  height: var(--circleSize);
+  box-shadow: var(--shadow);
+  border-radius: var(--radius);
+  transition: transform 0.2s ease-in-out;
+}
+
+.profile-pic .-label {
+  position: absolute;
+  width: var(--circleSize);
+  height: var(--circleSize);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--fontColor);
+  cursor: pointer;
+  border-radius: var(--radius);
+  z-index: 1;
+  opacity: 0;
+  /* Initially hidden */
+  transition: background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.profile-pic:hover .-label {
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 1;
+  /* Make the label visible on hover */
+}
+
+.profile-pic:hover img {
+  transform: scale(1.05);
+  /* Subtle zoom on hover */
+}

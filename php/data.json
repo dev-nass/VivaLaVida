@@ -1,0 +1,9 @@
+{
+  "title": "Instrument Report",
+  "date": "2024-10-27",
+  "items": [
+      {"name": "Guitar", "price": 1500},
+      {"name": "Drums", "price": 2200},
+      {"name": "Violin", "price": 1200}
+  ]
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
+#bg-giver {
+  background-image: url("../img/login & register/register-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#ui {
+  background: linear-gradient(to bottom, #a29489, #f2eeea);
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 1rem;
+  border: 2px solid black;  
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);  
+}
+
+#ui label,
+#ui h1 {
+  color: #f2eeea;
+}
+
+/* mine */
+
+.myfont {
+  font-family: 'Nunito', sans-serif;
+}
+
+a {
+  color: rgb(137, 56, 137);
+  transition: background-color 0.3s ease; 
+}
+
+a :hover {
+  color: black;
+}
+
+.btn {
+  background-color: #a29489;
+  transition: background-color 0.3s ease;
+}
+
+.btn :hover {
+  background-color: #806651;
+}
+

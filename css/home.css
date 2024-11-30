@@ -1,0 +1,204 @@
+/* util */
+.border {
+  border-top: .8px solid #666 !important;
+  border-bottom: .8px solid #666 !important;
+  border-right: none !important;
+  border-left: none !important;
+  padding: 1.3rem 0 1rem 0;
+}
+
+/* Used for Swipper.js arrows */
+.swiper-style {
+  color: var(--clr-gray);
+  border: 1px solid red;
+}
+
+/* Used for coloring the stars at section 3 */
+.checked {
+  color: orange;
+}
+
+/* Used for "We Value" section as container of <i> */
+.cirlce-container {
+  background-color: var(--clr-dark);
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Used for coloring the <i> */
+.feature-icon {
+  color: var(--clr-white);
+}
+
+
+
+
+
+/* SECTION 1 */
+#section-one {
+  padding-top: 5rem;
+}
+
+.carousel-hover-change {
+  display: inline-block; /* Ensure it's a block or inline-block element */
+  transition: transform 0.3s, filter 0.3s; /* Smooth transition */
+}
+
+.carousel-hover-change:hover {
+  filter: brightness(0.8); /* Darkens the image on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+
+
+
+
+/* SECTION 2: 2 FEATURED IMAGE */
+#section-two {
+  margin-top: 1rem;
+}
+
+#section-two img {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+
+/* SECTION 3: BRAND LOGOS */
+#section-three {
+  padding: 2em 1rem 1rem 1rem;
+}
+
+/* the parent div that contain the logos */
+.card-wrapper {
+  /* border: 1px solid red; */
+}
+
+#section-three ul.card-list {
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* adjusting the size of logos container */
+#section-three .card-item {
+  /* background-color: red; */
+  width: 120px !important;
+}
+
+/* adjusting the logo */
+img.category-logo {
+  margin: 0 auto;
+  height: 50px;
+  width: 80px;
+}
+
+.card-item {
+  background: var(--clr-white);
+}
+
+/* adjusting logo container */
+.card-item div.category-logo-container {
+  /* border: 1px solid red; */
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+/* <a> behind each logo to make them clickcable */
+.card-item div.category-logo-container a {
+  color: #333;
+  text-decoration: none;
+}
+
+
+
+/* SECTION 4: SALE ITEMS */
+#section-four {
+  padding: 1.5rem 1rem 1rem 1rem !important;
+}
+
+#section-four div.card-wrapper {
+  padding: 0.3rem 0;
+}
+
+#section-four div.card-body {
+  background-color: var(--clr-white) !important;
+}
+
+ul.item-list {
+  padding-left: 0 !important;
+}
+
+p.item-status,
+div.star-container {
+  margin-bottom: 10px !important;
+}
+
+
+
+
+
+
+
+/* SECTION 5: WE VALUE */
+#section-five {
+  padding: 1.5rem 1rem 1rem 1rem;
+}
+
+
+
+
+
+
+/* SECTION 6: */
+#section-six {
+  padding: 1.5rem 1rem 1rem 1rem;
+}
+
+a.read-more {
+  border: 1px solid var(--clr-gray);
+  margin-right: 10px;
+  transform: all .3s;
+}
+
+a.read-more:hover {
+  border: 1px solid var(--clr-gray)
+}
+
+.video-clip {
+  height: 300px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 900px) {
+  .carousel img {
+    height: 600px;
+  }
+
+  .swiper-slide-button {
+    display: none;
+  }
+}

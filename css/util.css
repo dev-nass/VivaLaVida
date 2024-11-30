@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+@import url("https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+:root {
+  --clr-light: #fff;
+  --clr-white: #f2eeea;
+  --clr-gray: #a29489;
+  --clr-dark: #3e3731;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--clr-white);
+  min-height: 100vh;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
+
+.normal-font {
+  font-family: "Poppins", sans-serif;
+  color: var(--clr-dark);
+  text-decoration: none;
+}
+
+/* Bg Util */
+.white-bg {
+  background-color: var(--clr-white) !important;
+  border: none;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.darkViva-bg {
+  background-color: var(--clr-dark) !important;
+}
+
+/* used for adminIndex logos */
+.darkViva-bgv2 {
+  background-color: var(--clr-dark) !important;
+  border-radius: 5px !important;
+  color: var(--clr-white) !important;
+  padding: 0.8rem 1rem;
+}
+
+.whiteViva-bg {
+  background-color: var(--clr-white) !important;
+}
+
+.whiteViva-bgv2 {
+  background-color: #d9d6d2 !important;
+}
+
+.darkBorder {
+  border: 2px solid var(--clr-dark) !important;
+}
+
+.greenViva-text {
+  color: #198754 !important;
+}
+
+.shadow-man {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Text Util */
+.darkViva-text {
+  color: var(--clr-dark) !important;
+}
+
+.whiteViva-text {
+  color: var(--clr-white) !important;
+}
+
+
+
+
+.section-header {
+  color: var(--clr-dark) !important;
+  font-family: "Anton", sans-serif;
+  font-weight: 300;
+}
+
+.brown-button {
+  background-color: var(--clr-dark) !important;
+  color: var(--clr-white) !important;
+  transition: all 0.3s;
+}
+
+.brown-button:hover,
+.brown-button:focus {
+  background-color: var(--clr-gray) !important;
+  color: var(--clr-dark);
+}
+
+.brown-button:focus,.brown-button:active:focus,.brown-button.active:focus,
+.brown-button.focus,.brown-button:active.focus,.brown-button.active.focus {
+  outline: none;
+}
+
+.input-search {
+  border: 1px solid var(--clr-gray) !important;
+  background-color: var(--clr-white) !important;
+  box-shadow: none !important;
+  color: var(--clr-dark) !important;
+  outline: none !important;
+}
+
+
+
+
+.profile {
+  border: 2px solid var(--clr-dark);
+  border-radius: 100%;
+  padding: .2rem;
+}
+
+.profile-name {
+  vertical-align: -30px;
+}
+
+.profile-img {
+  height: 40px !important;
+  width: 40px !important;
+}
+
+/* Remove default Bootstrap caret/arrow */
+.no-arrow::after {
+  display: none !important;
+}
+
+
+

@@ -1,0 +1,61 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+  .vh-100 {  
+    background: linear-gradient(to right, #807063, #bbb7b4);
+
+  }  
+
+  .btn {
+  background-color: #a29489;
+  transition: background-color 0.3s ease;
+  }
+
+  .btn:hover {
+  background-color: #806651;
+  }
+
+  .myfont {
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .icon {
+  width: 40px;
+  height: 40px;
+  }
+
+  .card {  
+    border-radius: 1rem;
+    background: linear-gradient(to bottom, #a29489, #f2eeea);
+    margin-top: 0;
+  }  
+
+  .card img {
+    vertical-align: top;
+    height: 100%;
+    object-fit: cover;
+    max-height: fit-content;
+  }
+  
+  .img-fluid {  
+    border-radius: 1rem 0 0 1rem;
+  }
+
+
+  h5 {  
+    letter-spacing: 1px;   
+  }  
+  
+  .pt-1.mb-4 .btn {  
+    width: 100%;   
+  }  
+  
+  a {
+    color: rgb(170, 39, 170);
+    transition: background-color 0.3s ease;
+  }
+
+  a :hover {
+    color: black;
+  }

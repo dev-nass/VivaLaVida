@@ -1,0 +1,123 @@
+
+#brand {
+  color: var(--clr-dark);
+  text-decoration: none;
+}
+
+#brand > h1 {
+  font-family: "Afacad flux", sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+
+/* Header element */
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  background: var(--clr-white);
+  /* transition: 0.3s background; */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.main-header .navbar {
+  padding: 15px 0;
+}
+
+.main-header img {
+  /* border: 1px solid red; */
+  height: 50px;
+
+}
+
+.main-header .navbar-nav > li {
+  padding: 5px 10px;
+}
+
+.main-header .navbar-nav > li > .nav-link {
+  padding: 0 5px;
+  line-height: 35px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: var(--clr-dark);
+  position: relative;
+}
+
+.main-header .navbar #div-search {
+  margin: 5px auto 10px auto;
+}
+
+#input-search {
+  border: 1px solid var(--clr-gray);
+  background-color: var(--clr-white);
+  box-shadow: none;
+  outline: none;
+}
+
+#button-search {
+  background-color: var(--clr-dark);
+  color: var(--clr-white);
+  transition: all 0.3s;
+}
+
+#button-search:hover,
+#buttonn-search:focus {
+  background-color: var(--clr-gray);
+  color: var(--clr-dark);
+}
+
+#button-search:focus,#button-search:active:focus,#button-search.active:focus,
+#button-search.focus,#button-search:active.focus,#button-search.active.focus {
+  outline: none;
+}
+
+@media(max-width: 991px) {
+  /* Menu */
+  .main-header .navbar-collapse {
+    border-bottom: 1px solid var(--clr-dark);
+    border-top: 1px solid var(--clr-dark);
+    background-color: var(--clr-white);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+
+  .main-header .navbar-nav > li {
+    text-align: center;
+  }
+
+  .main-header .navbar-toggler {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding: 4px 9px;
+    outline: none;
+    box-shadow: none;
+  }
+
+  .main-header .navbar-toggler span {
+    width: 25px;
+    height: 2px;
+    background-color: var(--clr-dark);
+    margin: 3px 0;
+    transition: 0.3s;
+  }
+
+  .main-header .navbar-toggler:not(.collapsed) span:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+  }
+
+  .main-header .navbar-toggler:not(.collapsed) span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .main-header .navbar-toggler:not(.collapsed) span:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+  }
+}
