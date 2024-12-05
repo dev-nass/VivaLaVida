@@ -40,3 +40,4 @@ POS Web-based system that prodivdes a wiki for end users accessing our website, 
 - Hybrid with E-commerce should be incorporated;
 - If this is push, different payment methods should be added, this can be backed with <strong>proof of payment feature</strong>.
 - Sending the receipt through E-mail should also be possible.
+- Just addition
